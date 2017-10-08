@@ -1,0 +1,73 @@
+# File           : README.org<rrt>
+# Created        : <2017-10-08 Sun 23:24:52 BST>
+# Modified       : <2017-10-08 Sun 23:53:14 BST> sharlatan
+# Author         : sharlatan
+# Maintainer(s)  :
+# Sinopsis       :
+
+#+OPTIONS: num:nil
+
+* Grammar
+https://doc.rust-lang.org/grammar.html
+
+** Reserved symbols
+| SGN   | TYPE       | V++ | V-- | DESCRIPTION       |   |
+|-------+------------+-----+-----+-------------------+---|
+| ={=   |            |     |     | Begining of scope |   |
+| =}=   |            |     |     | End of scope      |   |
+| =<=   | comparison |     |     |                   |   |
+| =!==  | comparison |     |     |                   |   |
+| ===   | comparison |     |     |                   |   |
+| =>=   | comparison |     |     |                   |   |
+| =*=   | math       |     |     |                   |   |
+| =-=   | math       |     |     |                   |   |
+| =%=   | math       |     |     |                   |   |
+| =/=   | math       |     |     |                   |   |
+| =+=   | math       |     |     |                   |   |
+| =::=  | path       |     |     |                   |   |
+| =..=  | range      |     |     |                   |   |
+| =...= | range      |     |     |                   |   |
+|-------+------------+-----+-----+-------------------+---|
+
+** Keywords 
+
+| KW         | TYPE          | V++ | V-- | DESCRIPTION                                                                                                                   |
+|------------+---------------+-----+-----+-------------------------------------------------------------------------------------------------------------------------------|
+| =Self=     |               |     |     | type alias for the type implementing a trait                                                                                  |
+| =_=        |               |     |     |                                                                                                                               |
+| =as=       | cast          |     |     | primitive casting, disambiguating the specific trait containing an item, or renaming items in use and extern crate statements |
+| =break=    | control flow  |     |     | exit a loop immediately                                                                                                       |
+| =const=    | asigment      |     |     | constant items and constant raw pointers                                                                                      |
+| =continue= |               |     |     | continue to the next loop iteration                                                                                           |
+| =crate=    |               |     |     | external crate linkage or a macro variable representing the crate in which the macro is defined                               |
+| =else=     | control flow  |     |     | fallback for if and if let control flow constructs                                                                            |
+| =enum=     | set data type |     |     | defining an enumeration                                                                                                       |
+| =extern=   | load          |     |     | external crate, function, and variable linkage                                                                                |
+| =false=    | boolean       |     |     | boolean false literal                                                                                                         |
+| =box=      |               |     |     |                                                                                                                               |
+| =fn=       |               |     |     | function definition and function pointer type                                                                                 |
+| =for=      | control flow  |     |     | iterator loop, part of trait impl syntax, and higher-ranked lifetime syntax                                                   |
+| =if=       | control flow  |     |     | conditional branching                                                                                                         |
+| =impl=     |               |     |     | inherent and trait implementation block                                                                                       |
+| =in=       |               |     |     | part of for loop syntax                                                                                                       |
+| =let=      | asigment      |     |     | variable binding                                                                                                              |
+| =loop=     | control flow  |     |     | unconditional, infinite loop                                                                                                  |
+| =match=    | control flow  |     |     | pattern matching                                                                                                              |
+| =mod=      |               |     |     | module declaration                                                                                                            |
+| =move=     |               |     |     | makes a closure take ownership of all its captures                                                                            |
+| =mut=      | asigment      |     |     | denotes mutability in references, raw pointers, and pattern bindings                                                          |
+| =pub=      |               |     |     | denotes public visibility in struct fields, impl blocks, and modules                                                          |
+| =ref=      |               |     |     | by-reference binding                                                                                                          |
+| =return=   |               |     |     | return from function                                                                                                          |
+| =self=     |               |     |     | method subject or current module                                                                                              |
+| =static=   | asigment      |     |     | global variable or lifetime lasting the entire program execution                                                              |
+| =struct=   | set data type |     |     | structure definition                                                                                                          |
+| =super=    |               |     |     | parent module of the current module                                                                                           |
+| =trait=    |               |     |     | trait definition                                                                                                              |
+| =true=     | boolean       |     |     | boolean true literal                                                                                                          |
+| =type=     |               |     |     | type alias and associated type definition                                                                                     |
+| =unsafe=   |               |     |     | denotes unsafe code, functions, traits, and implementations                                                                   |
+| =use=      |               |     |     | import symbols into scope                                                                                                     |
+| =where=    |               |     |     | type constraint clauses                                                                                                       |
+| =while=    | control flow  |     |     | conditional loop                                                                                                              |
+|------------+---------------+-----+-----+-------------------------------------------------------------------------------------------------------------------------------|
