@@ -1,6 +1,6 @@
 # File           : README.org<rrt>
 # Created        : <2017-10-08 Sun 23:24:52 BST>
-# Modified       : <2017-10-08 Sun 23:53:14 BST> sharlatan
+# Modified       : <2017-10-09 Mon 00:00:41 BST> sharlatan
 # Author         : sharlatan
 # Maintainer(s)  :
 # Sinopsis       :
@@ -16,8 +16,11 @@ https://doc.rust-lang.org/grammar.html
 | ={=   |            |     |     | Begining of scope |   |
 | =}=   |            |     |     | End of scope      |   |
 | =<=   | comparison |     |     |                   |   |
+| ==>=  |            |     |     |                   |   |
+| =>==  | comparison |     |     |                   |   |
+| =<==  | comparison |     |     |                   |   |
 | =!==  | comparison |     |     |                   |   |
-| ===   | comparison |     |     |                   |   |
+| \==   | comparison |     |     |                   |   |
 | =>=   | comparison |     |     |                   |   |
 | =*=   | math       |     |     |                   |   |
 | =-=   | math       |     |     |                   |   |
